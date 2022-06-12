@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color:dodgerblue;
+    color: white;
+    text-transform: uppercase;
+}
+a.active-class{
+    color:red;
+    list-style-type: none;
+}
+.style{
+    color: blue;
+    text-decoration: none;
+    font-size: larger;
+}
+.main{
+    border: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+    color: white;
+}
+
+/* SEARCH STYLING*/
+.mainSEARCH{
+width: 50%;
+margin: 2px auto;
+text-align: center;
+
+}
+.inputSEARCH{
+    margin: 20px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mainIMGSEARCH{
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+
+}
+.IMGSEARCH{
+border-radius: 15px;
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* ************NAVBAR STYLING*********** */
+.navbar{
+    background-color:white !important;
+}
+#navbar-brand{
+    font-size:2.2rem !important;
+    color:#565387 !important;
+}
+.navbar a{
+    font-size: 1.3rem !important;
+}
+.menu_active{
+font-weight: bold !important;
+border-bottom: 1px solid #565387;
+
+}
+.navbar a:hover{
+    color: #3498db !important;
+}
+
+
+/* ******HOME STYLING AND ABOUT STYLING******** */
+#header{
+    width: 100%;
+    height: 90vh;
+    margin-top: 70px;
+}
+#header h1{
+    margin: 0 0 10 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+}
+#header .brand-name{
+    color:#3498db ;
+}
+#header h2{
+    color: #484848;
+    font-size: 24px;
+}
+#header .btn-get-started{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 50px;
+    transition: 0.5s;
+    color: #3498db;
+    border: 2px solid #3498db;
+    text-decoration: none;
+}
+#header .btn-get-started:hover{
+    background-color: #3498db;
+    color: aliceblue;
+}
+.header-img{
+    text-align:right;
+}
+#header .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-25px);
+    }
+     
+}
+
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-5px);
+    }
+     }
+
+     /* ******************ERROR PAGE STYLING************* */
+     .mainERRORTEXT {
+        height: 80vh;
+        background-color: rgb(248, 133, 133);
+        font-size: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+      .gobackerrorbtn {
+        width: 120px;
+        padding: 8px;
+        border-radius: 9px;
+        cursor: pointer;
+        background-color: green;
+        color: whitesmoke;
+        font-size: 18px;
+      }
+      
